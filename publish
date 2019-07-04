@@ -1,0 +1,2 @@
+#!/bin/sh
+scp $(git ls-files | grep -Fv publish) readable.kemitchell.com:/var/www/readable.kemitchell.com/
