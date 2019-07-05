@@ -410,6 +410,12 @@ ol, ul {
   padding: 0 0 0 2rem;
 }
 
+aside {
+  margin: 1rem 0;
+  padding: 1rem;
+  border: 1px solid black;
+}
+
 /* Tables */
 
 table {

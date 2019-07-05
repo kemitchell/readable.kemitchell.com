@@ -59,6 +59,12 @@ ol, ul {
   padding: 0 0 0 2rem;
 }
 
+aside {
+  border: 1px solid black;
+  margin: 1rem 0;
+  padding: 1rem;
+}
+
 /* Tables */
 
 table {
