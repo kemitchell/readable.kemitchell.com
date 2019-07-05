@@ -65,6 +65,14 @@ aside {
   padding: 1rem;
 }
 
+hr {
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  border-top: 1px solid black;
+  height: 1;
+}
+
 /* Quotations */
 
 blockquote {
