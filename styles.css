@@ -411,9 +411,15 @@ ol, ul {
 }
 
 aside {
+  border: 1px solid black;
   margin: 1rem 0;
   padding: 1rem;
-  border: 1px solid black;
+}
+
+/* Quotations */
+
+blockquote {
+  margin: 1rem 0 1rem 2rem;
 }
 
 /* Tables */
