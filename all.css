@@ -444,6 +444,7 @@ thead tr:last-child {
 
 tbody th, tbody td {
   padding: 0.8rem 0.5rem;
+  vertical-align: top;
 }
 
 td, th {
