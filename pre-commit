@@ -1,4 +1,4 @@
 #!/bin/sh
 set -e
 make --quiet
-git add styles.css
+git add --update
