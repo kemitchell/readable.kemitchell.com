@@ -462,6 +462,20 @@ del {
   color: darkred;
   text-decoration: line-through;
 }
+
+/* Hyperlinks */
+
+a[href] {
+  text-decoration: none;
+}
+
+a[href]:hover {
+  text-decoration: underline;
+}
+
+a[href] img {
+  border: none;
+}
 /* PrismJS 1.16.0
 https://prismjs.com/download.html#themes=prism&languages=markup+css+clike+javascript+abnf+c+bash+bison+bnf+cpp+clojure+ruby+diff+markup-templating+ebnf+go+less+haskell+http+json+markdown+liquid+lisp+lua+makefile+nginx+scss+python+r+rust+sass+scheme+yaml+toml+wasm+wiki */
 /**

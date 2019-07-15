@@ -462,3 +462,17 @@ del {
   color: darkred;
   text-decoration: line-through;
 }
+
+/* Hyperlinks */
+
+a[href] {
+  text-decoration: none;
+}
+
+a[href]:hover {
+  text-decoration: underline;
+}
+
+a[href] img {
+  border: none;
+}
