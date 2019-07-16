@@ -375,8 +375,9 @@ body > nav,
 body > main,
 body > footer {
   display: block;
-  margin: 1rem 2rem;
+  margin: 1rem auto;
   max-width: 30rem;
+  text-align: left;
 }
 
 body > header {
@@ -390,7 +391,7 @@ body > footer {
 
 body > nav {
   border-bottom: 1px solid black;
-  margin: 0 2rem;
+  margin: 0 auto;
   padding: 0 0 1rem 0;
 }
 
