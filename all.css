@@ -536,7 +536,7 @@ table {
   position: relative;
 }
 
-.arabicInTheHole li:before {
+.arabicInTheHole > li:before {
   content: "(" counter(arabicInTheHole) ") ";
   counter-increment: arabicInTheHole;
   display:block;
@@ -549,7 +549,7 @@ table {
   counter-reset: upperAlphaInTheHole;
 }
 
-.upperAlphaInTheHole li {
+.upperAlphaInTheHole > li {
   list-style: none;
   position: relative;
 }
