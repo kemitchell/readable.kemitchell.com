@@ -491,72 +491,72 @@ table {
 
 /* List Styles */
 
-.lowerAlphaInTheHole {
-  counter-reset: lowerAlphaInTheHole;
+.lowerAlphaInParentheses {
+  counter-reset: lowerAlphaInParentheses;
 }
 
-.lowerAlphaInTheHole > li {
+.lowerAlphaInParentheses > li {
   list-style: none;
   position: relative;
 }
 
-.lowerAlphaInTheHole > li:before {
-  content: "(" counter(lowerAlphaInTheHole, lower-alpha) ") ";
-  counter-increment: lowerAlphaInTheHole;
+.lowerAlphaInParentheses > li:before {
+  content: "(" counter(lowerAlphaInParentheses, lower-alpha) ") ";
+  counter-increment: lowerAlphaInParentheses;
   display:block;
   left: -2rem;
   position: absolute;
   user-select: text;
 }
 
-.lowerRomanInTheHole {
-  counter-reset: lowerRomanInTheHole;
+.lowerRomanInParentheses {
+  counter-reset: lowerRomanInParentheses;
 }
 
-.lowerRomanInTheHole > li {
+.lowerRomanInParentheses > li {
   list-style: none;
   position: relative;
 }
 
-.lowerRomanInTheHole > li:before {
-  content: "(" counter(lowerRomanInTheHole, lower-roman) ") ";
-  counter-increment: lowerRomanInTheHole;
+.lowerRomanInParentheses > li:before {
+  content: "(" counter(lowerRomanInParentheses, lower-roman) ") ";
+  counter-increment: lowerRomanInParentheses;
   display:block;
   left: -2rem;
   position: absolute;
   user-select: text;
 }
 
-.arabicInTheHole {
-  counter-reset: arabicInTheHole;
+.arabicInParentheses {
+  counter-reset: arabicInParentheses;
 }
 
-.arabicInTheHole > li {
+.arabicInParentheses > li {
   list-style: none;
   position: relative;
 }
 
-.arabicInTheHole > li:before {
-  content: "(" counter(arabicInTheHole) ") ";
-  counter-increment: arabicInTheHole;
+.arabicInParentheses > li:before {
+  content: "(" counter(arabicInParentheses) ") ";
+  counter-increment: arabicInParentheses;
   display:block;
   left: -2rem;
   position: absolute;
   user-select: text;
 }
 
-.upperAlphaInTheHole {
-  counter-reset: upperAlphaInTheHole;
+.upperAlphaInParentheses {
+  counter-reset: upperAlphaInParentheses;
 }
 
-.upperAlphaInTheHole > li {
+.upperAlphaInParentheses > li {
   list-style: none;
   position: relative;
 }
 
-.upperAlphaInTheHole > li:before {
-  content: "(" counter(upperAlphaInTheHole, upper-alpha) ") ";
-  counter-increment: upperAlphaInTheHole;
+.upperAlphaInParentheses > li:before {
+  content: "(" counter(upperAlphaInParentheses, upper-alpha) ") ";
+  counter-increment: upperAlphaInParentheses;
   display:block;
   left: -2rem;
   position: absolute;
