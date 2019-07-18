@@ -491,18 +491,18 @@ table {
 
 /* List Styles */
 
-.alphaInTheHole {
-  counter-reset: alphaInTheHole;
+.lowerAlphaInTheHole {
+  counter-reset: lowerAlphaInTheHole;
 }
 
-.alphaInTheHole > li {
+.lowerAlphaInTheHole > li {
   list-style: none;
   position: relative;
 }
 
-.alphaInTheHole > li:before {
-  content: "(" counter(alphaInTheHole, lower-alpha) ") ";
-  counter-increment: alphaInTheHole;
+.lowerAlphaInTheHole > li:before {
+  content: "(" counter(lowerAlphaInTheHole, lower-alpha) ") ";
+  counter-increment: lowerAlphaInTheHole;
   display:block;
   left: -2rem;
   position: absolute;
