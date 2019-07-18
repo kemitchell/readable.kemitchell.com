@@ -137,3 +137,77 @@ a[href] img {
 table {
   width: 100%;
 }
+
+/* List Styles */
+
+.alphaInTheHole {
+  counter-reset: alphaInTheHole;
+}
+
+.alphaInTheHole > li {
+  list-style: none;
+  position: relative;
+}
+
+.alphaInTheHole > li:before {
+  content: "(" counter(alphaInTheHole, lower-alpha) ") ";
+  counter-increment: alphaInTheHole;
+  display:block;
+  left: -2rem;
+  position: absolute;
+  user-select: text;
+}
+
+.lowerRomanInTheHole {
+  counter-reset: lowerRomanInTheHole;
+}
+
+.lowerRomanInTheHole > li {
+  list-style: none;
+  position: relative;
+}
+
+.lowerRomanInTheHole > li:before {
+  content: "(" counter(lowerRomanInTheHole, lower-roman) ") ";
+  counter-increment: lowerRomanInTheHole;
+  display:block;
+  left: -2rem;
+  position: absolute;
+  user-select: text;
+}
+
+.arabicInTheHole {
+  counter-reset: arabicInTheHole;
+}
+
+.arabicInTheHole > li {
+  list-style: none;
+  position: relative;
+}
+
+.arabicInTheHole li:before {
+  content: "(" counter(arabicInTheHole, arabic) ") ";
+  counter-increment: arabicInTheHole;
+  display:block;
+  left: -2rem;
+  position: absolute;
+  user-select: text;
+}
+
+.upperAlphaInTheHole {
+  counter-reset: upperAlphaInTheHole;
+}
+
+.upperAlphaInTheHole li {
+  list-style: none;
+  position: relative;
+}
+
+.upperAlphaInTheHole > li:before {
+  content: "(" counter(upperAlphaInTheHole, upper-alpha) ") ";
+  counter-increment: upperAlphaInTheHole;
+  display:block;
+  left: -2rem;
+  position: absolute;
+  user-select: text;
+}
