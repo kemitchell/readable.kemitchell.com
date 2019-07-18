@@ -484,3 +484,7 @@ a[href]:hover {
 a[href] img {
   border: none;
 }
+
+table {
+  width: 100%;
+}
