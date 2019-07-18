@@ -537,7 +537,7 @@ table {
 }
 
 .arabicInTheHole li:before {
-  content: "(" counter(arabicInTheHole, arabic) ") ";
+  content: "(" counter(arabicInTheHole) ") ";
   counter-increment: arabicInTheHole;
   display:block;
   left: -2rem;
