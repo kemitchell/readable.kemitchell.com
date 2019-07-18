@@ -36,6 +36,7 @@ body > header {
 body > footer {
   border-top: 2px solid black;
   margin-bottom: 3rem;
+  text-align: right;
 }
 
 body > nav {
