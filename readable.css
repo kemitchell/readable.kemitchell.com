@@ -211,3 +211,7 @@ table {
   position: absolute;
   user-select: text;
 }
+
+code {
+  font-family: monospace;
+}
