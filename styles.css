@@ -370,29 +370,29 @@ html {
   text-rendering: optimizeLegibility;
 }
 
-body > header,
-body > nav,
-body > main,
-body > footer {
+body > header, header[role=banner],
+body > nav, nav[role=navigation],
+body > main, main[role=main],
+body > footer, footer[role=contentinfo] {
   display: block;
   margin: 1rem auto;
   max-width: 33rem;
   text-align: left;
 }
 
-body > header {
+body > header, header[role=banner] {
   margin-top: 2rem;
   border-bottom: 2px solid black;
 }
 
-body > footer {
+body > footer, footer[role=contentinfo] {
   border-top: 2px solid black;
   margin-top: 2rem;
   margin-bottom: 3rem;
   text-align: right;
 }
 
-body > nav {
+body > nav, nav[role=navigation] {
   border-bottom: 1px solid black;
   margin: 0 auto;
   padding: 0 0 1rem 0;
