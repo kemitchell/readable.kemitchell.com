@@ -217,3 +217,7 @@ table {
 code {
   font-family: monospace;
 }
+
+img {
+  max-width: 100%;
+}
