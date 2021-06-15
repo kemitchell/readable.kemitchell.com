@@ -613,6 +613,10 @@ img {
 aside {
   margin: 0.8rem 0;
 }
+
+dt {
+  font-weight: bold;
+}
 /* PrismJS 1.16.0
 https://prismjs.com/download.html#themes=prism&languages=markup+css+clike+javascript+abnf+c+bash+bison+bnf+cpp+clojure+ruby+diff+markup-templating+ebnf+go+less+haskell+http+json+markdown+liquid+lisp+lua+makefile+nginx+scss+python+r+rust+sass+scheme+yaml+toml+wasm+wiki */
 /**

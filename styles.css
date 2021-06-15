@@ -613,3 +613,7 @@ img {
 aside {
   margin: 0.8rem 0;
 }
+
+dt {
+  font-weight: bold;
+}
