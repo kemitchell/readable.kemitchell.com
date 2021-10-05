@@ -377,6 +377,7 @@ body > footer, footer[role=contentinfo] {
   display: block;
   margin: 1rem auto;
   max-width: 33rem;
+  padding: 0 1.5rem;
   text-align: left;
 }
 
