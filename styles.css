@@ -617,3 +617,17 @@ aside {
 dt {
   font-weight: bold;
 }
+@media print {
+  html {
+    font-size: 11pt;
+  }
+
+  body > header, header[role=banner],
+  body > nav, nav[role=navigation],
+  body > main, main[role=main],
+  body > footer, footer[role=contentinfo] {
+    margin: 1rem 0;
+    max-width: max-content;
+    padding: 0;
+  }
+}
