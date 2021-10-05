@@ -620,6 +620,7 @@ dt {
 @media print {
   html {
     font-size: 11pt;
+    font-family: serif;
   }
 
   body > header, header[role=banner],
