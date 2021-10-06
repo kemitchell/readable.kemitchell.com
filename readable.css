@@ -31,7 +31,6 @@ body > footer, footer[role=contentinfo] {
 }
 
 body > header, header[role=banner] {
-  border-bottom: 2px solid black;
   margin-top: 2rem;
 }
 
@@ -42,7 +41,6 @@ body > footer, footer[role=contentinfo] {
 }
 
 body > nav, nav[role=navigation] {
-  border-bottom: 1px solid black;
   margin: 0 auto;
   padding: 0 0 1rem 0;
 }
