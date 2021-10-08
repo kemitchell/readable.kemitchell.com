@@ -393,7 +393,7 @@ body > footer, footer[role=contentinfo] {
 
 body > nav, nav[role=navigation] {
   margin: 0 auto;
-  padding: 0 0 1rem 0;
+  padding-bottom: 1rem;
 }
 
 section {
