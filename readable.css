@@ -264,3 +264,7 @@ aside {
 dt {
   font-weight: bold;
 }
+
+.twoColumns {
+  columns: 2;
+}

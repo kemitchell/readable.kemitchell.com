@@ -615,6 +615,10 @@ aside {
 dt {
   font-weight: bold;
 }
+
+.twoColumns {
+  columns: 2;
+}
 @media print {
   html {
     font-size: 11pt;
