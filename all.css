@@ -381,6 +381,13 @@ body > footer, footer[role=contentinfo] {
   text-align: left;
 }
 
+body.wider > header, body.wider header[role=banner],
+body.wider > nav,    body.wider nav[role=navigation],
+body.wider > main,   body.wider main[role=main],
+body.wider > footer, body.wider footer[role=contentinfo] {
+  max-width: 50rem;
+}
+
 body > header, header[role=banner] {
   margin-top: 2rem;
 }
