@@ -1,7 +1,7 @@
 @media print {
   html {
-    font-size: 11pt;
     font-family: serif;
+    font-size: 11pt;
   }
 
   body > header, header[role=banner],
