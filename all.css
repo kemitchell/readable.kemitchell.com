@@ -361,7 +361,7 @@ html {
 }
 
 @media screen and (max-width:520px) {
-  html{ font-size: 14px; }
+  html { font-size: 14px; }
 }
 
 html {
@@ -371,8 +371,8 @@ html {
 }
 
 body > header, header[role=banner],
-body > nav, nav[role=navigation],
-body > main, main[role=main],
+body > nav,    nav[role=navigation],
+body > main,   main[role=main],
 body > footer, footer[role=contentinfo] {
   display: block;
   margin: 1rem auto;
