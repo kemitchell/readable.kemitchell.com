@@ -534,8 +534,44 @@ table {
   user-select: text;
 }
 
+.upperRomanInParentheses {
+  counter-reset: upperRomanInParentheses;
+}
+
+.upperRomanInParentheses > li {
+  list-style: none;
+  position: relative;
+}
+
+.upperRomanInParentheses > li:before {
+  content: "(" counter(upperRomanInParentheses, upper-roman) ") ";
+  counter-increment: upperRomanInParentheses;
+  display:block;
+  left: -2rem;
+  position: absolute;
+  user-select: text;
+}
+
 .arabicInParentheses {
   counter-reset: arabicInParentheses;
+}
+
+.lowerRomanInParentheses {
+  counter-reset: lowerRomanInParentheses;
+}
+
+.lowerRomanInParentheses > li {
+  list-style: none;
+  position: relative;
+}
+
+.lowerRomanInParentheses > li:before {
+  content: "(" counter(lowerRomanInParentheses, lower-roman) ") ";
+  counter-increment: lowerRomanInParentheses;
+  display:block;
+  left: -2rem;
+  position: absolute;
+  user-select: text;
 }
 
 .arabicInParentheses > li {
